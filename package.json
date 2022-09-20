@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "name": "Joyboo",
+  "author": "Joyboo",
+  "files": ["dist"],
+  "scripts": {
+    "clean": "rimraf lib es dist",
+    "build": "npm run clean && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "axios": "^0.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "less": "^4.1.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.2",
+    "vite-plugin-build": "^0.6.0",
+    "vue-tsc": "^0.39.0"
+  }
+}
